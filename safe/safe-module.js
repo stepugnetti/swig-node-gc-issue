@@ -1,0 +1,1 @@
+exports.DummyObject = function () {};

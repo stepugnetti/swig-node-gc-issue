@@ -1,0 +1,6 @@
+{
+  "name" : "safe-module",
+  "version" : "0.1.0",
+  "description" : "A safe package to illustrate a problem with swig-compiled modules and v8 garbage collector.",
+  "main" : "safe-module.js"
+}
