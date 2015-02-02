@@ -11,8 +11,8 @@ dummy-module_wrap.cxx: dummy-module.i
 	swig -c++ -javascript -node dummy-module.i
 
 clean:
-	rm dummy-module_wrap.cxx
-	rm -r -f build
-	rm -r -f node_modules
+	if [ -f dummy-module_wrap.cxx ]; then rm dummy-module_wrap.cxx; fi
+	if [ -d build ]; then rm -r -f build; fi
+	if [ -d node_modules ]; then rm -r -f node_modules; fi
 
 	
